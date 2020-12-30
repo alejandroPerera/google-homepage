@@ -1,5 +1,17 @@
 input {
-    border-radius: 15px;
-    width: 300px;
-    height: 30px;
+    border-radius: 30px;
+    width: 600px;
+    height: 40px;
+}
+
+#logo {
+    display: block;
+  /*  margin-left: auto;
+    margin-right: auto;  */
+    margin: auto;
+}
+
+#search{
+    display: block;
+    margin: auto;
 }
