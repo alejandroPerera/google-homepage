@@ -6,11 +6,26 @@ input {
     border-radius: 30px;
     width: 600px;
     height: 40px;
+    border-width: 1px;
+    border-color: rgb(201, 197, 197);
+    outline: none;
+    text-indent: 50px;
+    text-align: initial;
+    font-size: 18px;
+    background: url(images/magnifying_glass.png) no-repeat scroll, url(images/mic.png) no-repeat right scroll;
+    background-size: 30px;
+    background-position-y: center;
+}
+
+input:hover, input:focus{
+    padding: 2px;
+    margin: 2px;
+    border-color: rgb(231, 223, 223);
 }
 
 #logo {
     display: block;
-    margin: auto;
+    margin: 50px auto auto auto;
 }
 
 #search{
@@ -38,7 +53,7 @@ input {
     height: 5px;
 }
 
-.square:hover{ 
+#boxes:hover{ 
     --squares_color: black;
 }
 
