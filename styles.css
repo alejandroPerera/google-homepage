@@ -6,12 +6,36 @@ input {
 
 #logo {
     display: block;
-  /*  margin-left: auto;
-    margin-right: auto;  */
     margin: auto;
 }
 
 #search{
     display: block;
     margin: auto;
+}
+
+.topNavbar{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#boxes {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline;
 }
