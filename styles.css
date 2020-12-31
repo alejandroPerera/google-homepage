@@ -1,3 +1,7 @@
+:root {
+    --squares_color: grey;
+}
+
 input {
     border-radius: 30px;
     width: 600px;
@@ -25,9 +29,29 @@ input {
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 3px;
+    grid-gap: 2px;
 }
 
+.square{ 
+    background: var(--squares_color); 
+    width: 5px; 
+    height: 5px;
+}
+
+.square:hover{ 
+    --squares_color: black;
+}
+
+#sign_in {
+    margin: -5px 20px 0 20px;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
+    background: -webkit-linear-gradient(top, #4387fd, #4683ea);
+    padding: 5px 12px;
+    text-decoration: none;
+}
 a {
     text-decoration: none;
     color: black;
