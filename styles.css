@@ -5,27 +5,26 @@
 input {
     border-radius: 30px;
     width: 600px;
-    height: 40px;
+    height: 30px;
     border-width: 1px;
     border-color: rgb(201, 197, 197);
     outline: none;
     text-indent: 50px;
     text-align: initial;
     font-size: 18px;
-    background: url(images/magnifying_glass.png) no-repeat scroll, url(images/mic.png) no-repeat right scroll;
+    background: url(images/magnifying_glass.png) no-repeat scroll;
     background-size: 30px;
+    background-position-x: 10px;
     background-position-y: center;
 }
 
 input:hover, input:focus{
-    padding: 2px;
-    margin: 2px;
-    border-color: rgb(231, 223, 223);
+    box-shadow: 0 0 2pt 1pt rgb(230, 230, 230);
 }
 
 #logo {
     display: block;
-    margin: 50px auto auto auto;
+    margin: 75px auto auto auto;
 }
 
 #search{
@@ -100,5 +99,25 @@ a:hover {
 .belowBar a:hover{
     box-shadow: 0 0 2pt 1pt lightgray;
     background-image: none;
-    background-color: rgb(251, 251, 251);
+    background-color: rgb(247, 247, 247);
 }
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    background-color: #eeeeee;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    outline: solid lightgrey 1px;
+    right: 0;
+}
+
+.footer a {
+    margin-top: 8px;
+}
+
